@@ -1,0 +1,45 @@
+    .logo {
+            margin: 0 0 0 50px;
+            width: 20%;
+        }
+
+        .tabela-head {
+            padding: 20px;
+            background-color: aqua;
+            text-align: left;
+        }
+
+        .table-title {
+
+            margin: 0 0 0 45px;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .icons {
+            padding: 0 0 0 10rem;
+        }
+
+        .form-order {
+            display: inline;
+            padding: 0 0 0 45px;
+        }
+
+        .text {
+            padding: 0 0 0 100px;
+            width: 70rem;
+            font-size: 20px;
+        }
+
+        .footer{
+           display: inline-block;
+            margin: 0 0 0 45px;
+           background-color: aqua;
+        }
+        
+        .footer-input{
+            display: inline-block;
+            padding: 0 8rem;
+        }
