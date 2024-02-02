@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px 10px;
+}
+
+.paddingY20 {
+    padding: 20px 0;
+}
+
+.logo {
+    margin: 0 0 0 50px;
+    width: 20%;
+}
+
+.tableHead {
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 50px;
+    text-align: left;
+}
+
+.table-title {
+    margin: 0 0 0 45px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.icons {
+    padding: 0 0 0 10rem;
+}
+
+.form-order {
+    display: inline;
+    padding: 0 0 0 45px;
+}
+
+.text {
+    padding: 0 0 0 100px;
+    width: 70rem;
+    font-size: 20px;
+}
+
+.footer {
+    display: inline-block;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.footer-input {
+    display: inline-block;
+    padding: 0 8rem;
+}
