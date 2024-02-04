@@ -1,59 +1,100 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    padding: 20px 10px;
+    padding: 20px 40px;
 }
 
-.paddingY20 {
-    padding: 20px 0;
+/* header */
+header {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+}
+
+header nav a::after {
+    content: '/';
+    margin: 0 5px;
+}
+
+header .headerTitle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 20px;
 }
 
 .logo {
-    margin: 0 0 0 50px;
     width: 20%;
-}
-
-.tableHead {
     padding: 20px;
-    background-color: aqua;
-    border-radius: 50px;
-    text-align: left;
 }
 
-.table-title {
-    margin: 0 0 0 45px;
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-.icons {
-    padding: 0 0 0 10rem;
-}
-
-.form-order {
-    display: inline;
-    padding: 0 0 0 45px;
-}
-
-.text {
-    padding: 0 0 0 100px;
-    width: 70rem;
-    font-size: 20px;
-}
-
-.footer {
-    display: inline-block;
+nav {
     background-color: aqua;
     padding: 20px;
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
-.footer-input {
-    display: inline-block;
-    padding: 0 8rem;
+/* Main */
+main .mainImages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.mainImages img {
+    width: 100%;
+}
+
+.cardInfo {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.cardInfoInputs {
+    padding: 60px 0;
+    position: sticky;
+    top: 0px;
+}
+
+.cardInfoInputs div {
+    margin: 20px 0;
+}
+
+.cardInfoInputs input {
+    width: 100%;
+}
+
+.cardInfoContent {
+    padding: 40px;
+}
+
+.cardInfoContent section {
+    padding: 20px 0;
+}
+
+.cardInfoContentImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.cardInfoContentImage img {
+    width: 100%;
+}
+
+.cardInfoContentText {
+    padding: 20px 0;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 40px;
 }
