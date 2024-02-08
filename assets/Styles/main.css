@@ -8,9 +8,28 @@ body {
     padding: 20px 40px;
 }
 
-/* header */
-header {
+.dGrid {
     display: grid;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.paddingY20 {
+    padding: 20px 0;
+}
+
+.wFull {
+    width: 100%;
+}
+
+/* header */
+.logo {
+    width: 20%;
+}
+
+header {
     grid-template-rows: auto auto auto;
     align-items: center;
 }
@@ -21,80 +40,44 @@ header nav a::after {
 }
 
 header .headerTitle {
-    display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
-    padding: 20px;
-}
-
-.logo {
-    width: 20%;
-    padding: 20px;
 }
 
 nav {
     background-color: aqua;
-    padding: 20px;
     border-radius: 40px;
 }
 
 /* Main */
 main .mainImages {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
-.mainImages img {
-    width: 100%;
-}
-
 .cardInfo {
-    display: grid;
     grid-template-columns: auto 1fr;
 }
 
 .cardInfoInputs {
     padding: 60px 0;
     position: sticky;
-    top: 0px;
-}
-
-.cardInfoInputs div {
-    margin: 20px 0;
-}
-
-.cardInfoInputs input {
-    width: 100%;
+    top: 170px;
 }
 
 .cardInfoContent {
     padding: 40px;
 }
 
-.cardInfoContent section {
-    padding: 20px 0;
-}
-
 .cardInfoContentImage {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
-.cardInfoContentImage img {
-    width: 100%;
-}
-
-.cardInfoContentText {
-    padding: 20px 0;
-}
-
+/* footer */
 footer {
-    display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-between;
     background-color: aqua;
-    padding: 20px;
     border-radius: 40px;
 }
